@@ -57,7 +57,7 @@ static int kMaxEventBufferSize = 10;
 
 - (instancetype)initWithAppKey:(NSString *)appKey config:(NSDictionary *)config
 {
-  if (self = [self init]) {
+  if (self = [self init:appKey]) {
     self.appKey = appKey;
     self.config = [[KarteTrackerConfig alloc] initWithConfig:config];
     self.userProfile = [[KarteTrackerUserProfile alloc] init];
@@ -65,6 +65,7 @@ static int kMaxEventBufferSize = 10;
     if ([self.config enabledTrackingAppLifecycle]) {
       [self trackAppLifecycle];
     }
+    appKeyToInstance[appKey] = self;
   }
   return self;
 }
@@ -220,8 +221,8 @@ static int kMaxEventBufferSize = 10;
                                                          cachePolicy:NSURLRequestReloadIgnoringLocalCacheData
                                                      timeoutInterval:10.0];
   [request setHTTPMethod:@"POST"];
-  [request setValue:@"content-type" forHTTPHeaderField:@"text/plain; charset=utf-8"];
-  [request setValue:@"X-KARTE-App-Key" forHTTPHeaderField:self.appKey];
+  [request setValue:@"text/plain; charset=utf-8" forHTTPHeaderField:@"content-type"];
+  [request setValue:self.appKey forHTTPHeaderField:@"X-KARTE-App-Key"];
   
   NSData *postData = [self createEventJson:events];
   
