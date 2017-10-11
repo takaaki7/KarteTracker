@@ -10,7 +10,7 @@
 @import Firebase;
 
 // api_key of KARTE
-static NSString *const kApiKey = @"62047b8feddfdf076202b56ee77f7d43";
+static NSString *const kAppKey = @"62047b8feddfdf076202b56ee77f7d43";
 
 @implementation KarteTrackerAppDelegate
 
@@ -21,8 +21,8 @@ static NSString *const kApiKey = @"62047b8feddfdf076202b56ee77f7d43";
   // setup Tracker
   NSLog(@"Setup tracker");
   KarteTrackerShowLog(YES); // for debugging
-  [KarteTracker setupWithApiKey:kApiKey
-                         config:@{ @"TRACK_URL": @"http://localhost:8010" }];
+  [KarteTracker setupWithAppKey:kAppKey
+                         config:@{ @"endpoint": @"http://localhost:8010/v0/track" }];
 
   // setup Firebase
   [FIRApp configure];
