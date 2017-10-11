@@ -1,0 +1,23 @@
+{
+  "name": "KarteTracker",
+  "version": "0.1.0",
+  "summary": "A short description of KarteTracker.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/KarteTracker",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Wataru Ikarashi": "wataru.ikarashi@plaid.co.jp"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/KarteTracker.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KarteTracker/Classes/**/*",
+  "libraries": "z"
+}

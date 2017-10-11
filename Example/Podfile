@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'KarteTracker_Example' do
+  pod 'KarteTracker', :path => '../'
+
+  target 'KarteTracker_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  end
+end
+
+pod 'Firebase/Messaging'
