@@ -38,7 +38,7 @@
 
 - (IBAction)sendView:(id)sender {
   NSLog(@"'Send View' has been clicked");
-  [[KarteTracker sharedTracker] view:@{@"from":@"Send View Button"}];
+  [[KarteTracker sharedTracker] view:@"main_view" values:@{@"from":@"Send View Button"}];
 }
 
 - (IBAction)sendBuy:(id)sender {
