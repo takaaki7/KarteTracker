@@ -17,13 +17,14 @@
 
 + (nullable instancetype)sharedTrackerWithAppKey:(nonnull NSString *)appKey;
 + (nullable instancetype)sharedTracker;
-+ (nonnull instancetype)setupWithAppKey:(NSString *)appKey;
-+ (nonnull instancetype)setupWithAppKey:(NSString *)appKey config:(nullable NSDictionary *)config;
++ (nonnull instancetype)setupWithAppKey:(nonnull NSString *)appKey;
++ (nonnull instancetype)setupWithAppKey:(nonnull NSString *)appKey config:(nullable NSDictionary *)config;
 
 - (nonnull instancetype)initWithAppKey:(nonnull NSString *)appKey;
 - (nonnull instancetype)initWithAppKey:(nonnull NSString *)appKey config:(nullable NSDictionary *)config;
 
 - (void)track:(nonnull NSString *)eventName values:(nullable NSDictionary *)values;
+- (void)trackNotification:(nonnull NSDictionary *)userInfo;
 - (void)identify:(nonnull NSDictionary *)values;
 - (void)view:(nonnull NSString *)view_name;
 - (void)view:(nonnull NSString *)view_name values:(nullable NSDictionary *)values;
