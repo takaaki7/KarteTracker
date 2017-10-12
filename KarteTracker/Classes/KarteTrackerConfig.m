@@ -24,7 +24,7 @@
     self.enableTrackingAppLifecycle = config[@"enableTrackingAppLifecycle"] != nil ? [config[@"enableTrackingAppLifecycle"] boolValue] : YES;
     self.endpoint = config[@"endpoint"] ? config[@"endpoint"] : @"https://api.karte.io/v0/track";
     self.viewEventName = config[@"viewEventName"] ? config[@"viewEventName"] : @"view";
-    self.enableTrackingCrashError = config[@"enableTrackingCrashError"] != nil ? [config[@"enableTrackingCrashError"] boolValue] : YES;
+    self.enableTrackingCrashError = config[@"enableTrackingCrashError"] != nil ? [config[@"enableTrackingCrashError"] boolValue] : NO;
   }
   return self;
 }

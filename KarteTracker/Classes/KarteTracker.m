@@ -15,6 +15,7 @@
 @property (nonatomic, strong) KarteTrackerAppProfile *appProfile;
 @property (nonatomic, strong) NSMutableArray *bufferedEvents;
 @property (nonatomic, strong) dispatch_queue_t flushingTaskQueue;
+@property (nonatomic, strong) NSDictionary *appProfileValues;
 
 @end
 
@@ -92,11 +93,20 @@ static int kMaxEventBufferSize = 10;
 
 - (void)track:(NSString *)eventName values:(NSDictionary *)values
 {
+  [self track: eventName values:values withAppInfo:YES];
+}
+
+- (void)track:(NSString *)eventName values:(NSDictionary *)values withAppInfo:(BOOL)withAppInfo
+{
   if (values == nil) {
     values = @{};
   }
   NSMutableDictionary *clonedValues = [values mutableCopy];
   clonedValues[@"_event_local_date"] = @([[NSDate date] timeIntervalSince1970]);
+  
+  if (withAppInfo) {
+    clonedValues[@"app_info"] = [self getAppProfileValues];
+  }
 
   NSDictionary *event = @{ @"event_name": eventName,
                            @"values": clonedValues };
@@ -107,7 +117,7 @@ static int kMaxEventBufferSize = 10;
 
 - (void)identify:(NSDictionary *)values
 {
-  [self track:@"identify" values:values];
+  [self track:@"identify" values:values withAppInfo:NO];
 }
 
 - (void)view:(NSString *)view_name
@@ -170,12 +180,7 @@ static int kMaxEventBufferSize = 10;
     return;
   }
   
-  NSMutableDictionary *values = [@{ @"version_name": self.appProfile.versionName,
-                                    @"system_info": @{ @"os": [[UIDevice currentDevice] systemName],
-                                                       @"os_version": [[UIDevice currentDevice] systemVersion],
-                                                       @"device": [[UIDevice currentDevice] model],
-                                                       @"model": GetDeviceName() }}
-                                 mutableCopy];
+  NSMutableDictionary *values = [self getAppProfileValues];
   
   if(self.appProfile.prevVersionName == nil){
     // installed
@@ -185,6 +190,21 @@ static int kMaxEventBufferSize = 10;
     values[@"prev_version_name"] = self.appProfile.prevVersionName;
     [self track:@"native_app_update" values:values];
   }
+}
+
+- (NSMutableDictionary *)getAppProfileValues
+{
+  
+  if (self.appProfileValues == nil) {
+    self.appProfileValues = @{ @"version_name": self.appProfile.versionName,
+                               @"system_info": @{ @"os": [[UIDevice currentDevice] systemName],
+                                                  @"os_version": [[UIDevice currentDevice] systemVersion],
+                                                  @"device": [[UIDevice currentDevice] model],
+                                                  @"model": GetDeviceName() }};
+  }
+  
+  NSMutableDictionary *copy = [self.appProfileValues mutableCopy];
+  return copy;
 }
 
 - (void)registerFCMToken:(NSString *)token
