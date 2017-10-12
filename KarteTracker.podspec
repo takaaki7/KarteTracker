@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint tracker-ios-sample.podspec' to ensure this is a
+# Be sure to run `pod lib lint KarteTracker.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'tracker-ios-sample'
+  s.name             = 'KarteTracker'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of tracker-ios-sample.'
+  s.summary          = 'A short description of KarteTracker.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,22 +21,23 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/makinoy/tracker-ios-sample'
+  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/KarteTracker'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'makinoy' => 'makino.y@gmail.com' }
-  s.source           = { :git => 'https://github.com/makinoy/tracker-ios-sample.git', :tag => s.version.to_s }
+  s.author           = { 'Wataru Ikarashi' => 'wataru.ikarashi@plaid.co.jp' }
+  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/KarteTracker.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'tracker-ios-sample/Classes/**/*'
+  s.source_files = 'KarteTracker/Classes/**/*'
   
   # s.resource_bundles = {
-  #   'tracker-ios-sample' => ['tracker-ios-sample/Assets/*.png']
+  #   'KarteTracker' => ['KarteTracker/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.library = 'z'
 end
