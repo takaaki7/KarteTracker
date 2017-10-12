@@ -149,12 +149,14 @@ static int kMaxEventBufferSize = 10;
       [_bufferedEvents removeObjectsAtIndexes:indexSet];
     }
     events = [_bufferedEvents copy];
+    [_bufferedEvents removeAllObjects];
   }
   
   NSString *endpoint = [self.config getEndpoint];
   
   BOOL success = [self sendRequest:endpoint events:events];
-  if(success){
+  if(!success){
+    KarteTrackerLog(@"Failed to send request");
 //    @synchronized (self) {
 //      NSIndexSet *indexSet = [NSIndexSet indexSetWithIndexesInRange:NSMakeRange(0, [events count])];
 //      [_bufferedEvents removeObjectsAtIndexes:indexSet];
