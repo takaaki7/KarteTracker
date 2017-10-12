@@ -22,7 +22,7 @@ static NSString *const kAppKey = @"62047b8feddfdf076202b56ee77f7d43";
   NSLog(@"Setup tracker");
   KarteTrackerShowLog(YES); // for debugging
   [KarteTracker setupWithAppKey:kAppKey
-                         config:@{ @"endpoint": @"http://localhost:8010/v0/track" }];
+                         config:@{}];
 
   // setup Firebase
   [FIRApp configure];
