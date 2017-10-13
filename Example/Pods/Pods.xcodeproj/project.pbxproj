@@ -8,36 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		01F278A54C85C2C865DDAD4090C559B6 /* EXPDoubleTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7F7C7C10FB725B6CCF48AF77B34296 /* EXPDoubleTuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		04857F529C67BB690A0645D6EE5F9A2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DF21EF8268E32D359CD23F2CF3EFE3 /* Foundation.framework */; };
+		041DB1B527C2BA129C71E17A131EA733 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */; };
 		07AED4ECB76DBBA7DD69338AA054AF42 /* SPTGlobalBeforeAfterEach.h in Headers */ = {isa = PBXBuildFile; fileRef = 33A3B0AA3BC623C2D654E4008B5C0524 /* SPTGlobalBeforeAfterEach.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09B18A0AFD81C25D53BC3FC246DA2349 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */; };
 		0AF9E20521EBD3203B3500139A5F674D /* SPTCompiledExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 822B13D1E012D1AE720A324407030ADB /* SPTCompiledExample.m */; };
-		0B11B174B2ADC6056A89A3EBE624151D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AECEA2EDA41473899EE391CA038EDC38 /* XCTest.framework */; };
 		0D1D90F6A3877DADFA67A6D29774602E /* SPTExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7C2DAFAC2D2A3504BA4648A15D0462 /* SPTExample.m */; };
 		0E86BBA3A65849769B47995A5E91C881 /* Expecta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE4EC318A799D6D1B5BD039AD4FD0EBE /* Expecta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1009851D0C0B3FCBC574C414CC4D31B0 /* EXPMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 1134BDF5F577E5AA2C9485EA30AC1280 /* EXPMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		137705AE3AD9E1D5344F55000A0427AD /* KarteTrackerAppProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 339EA382D24C16F8F1C7515F33B72316 /* KarteTrackerAppProfile.m */; };
+		11948E16BF3548C7BABF77C532966B84 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FBDD60AB5EC0183A198A13D9A5D7BCE /* XCTest.framework */; };
 		13FE89ECD0D9EFF45219D135A177F5FE /* SpectaUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE706B4315E61CAEC66B875245EEB8A /* SpectaUtility.m */; };
 		150503B99F77D3D8897EFFC68C09A351 /* EXPMatcherHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 911DCA29A7808F3EA706F6B31F4409F6 /* EXPMatcherHelpers.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1ABFD8268C61A52E4AB5E3CE72F56681 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DF21EF8268E32D359CD23F2CF3EFE3 /* Foundation.framework */; };
 		1D676445A1446539D4B722E6EF0C802A /* ExpectaSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = B1151F4AA8C81AE7D7A614BB889A332C /* ExpectaSupport.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		214F8D721940BD9AA4BAB0E5AE2E8A1C /* EXPBlockDefinedMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A3CBC4653A4F8AF8E54B1CB9C41550F /* EXPBlockDefinedMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26EFBC1B787205C45A2FF58BD3572C85 /* SpectaDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 5995B254F8F400026042A0DD749FA27C /* SpectaDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		285C6F6BE59E632CB219CD98B4EDC1AA /* EXPMatchers+endWith.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDCA4ADB95E136FB68A121D9D8FFB4A /* EXPMatchers+endWith.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		2916D75F69E777954F5BF46AE63C52C0 /* EXPMatchers+beSubclassOf.m in Sources */ = {isa = PBXBuildFile; fileRef = AC23D18BDE296002B059DA30CFD2E021 /* EXPMatchers+beSubclassOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2DAAEE0B719A256DFDCDFB8EE06BEC90 /* KarteTracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DF715BF0ADAC3E06876CF98DA0D2E7 /* KarteTracker-dummy.m */; };
-		2E4BD00F39FDE3496CC11083BE9BB953 /* KarteTrackerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7806EB8CEE35BAE21B3CAE26871D259D /* KarteTrackerConfig.m */; };
+		2931BB37667BA575500328328BEAD426 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */; };
+		2B963DCFBA2F9133F8F3CE3EBBD85867 /* KarteTrackerUserProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F762847AC302C66E294A267CB9428 /* KarteTrackerUserProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2FC2CE57637D400F9C8BF2FB6CC56361 /* SPTTestSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BFDC3B8F9AA155AC6F31ADD7333F04 /* SPTTestSuite.m */; };
 		32BBED1F81BF95245D02699A9D8F013A /* SpectaTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D6330BD87D9FEBA11DB11FA238CC1F1 /* SpectaTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35516D2A1395766575A16CFEF1C6EDA6 /* KarteTrackerUserProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = D64C0BF7CBD088E56DD9FE82D07075E3 /* KarteTrackerUserProfile.m */; };
 		361B58CE2A28E03CA83A73617ED739F2 /* EXPMatchers+raise.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D15949AE71DD3C9A9F9D2A6BF12E81 /* EXPMatchers+raise.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		39461DAB3DE2637F4AE2BA94F19DCF2B /* EXPDoubleTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = 736ED8E0D4009E98DD7131355D770F44 /* EXPDoubleTuple.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D1C615E741E95E2199E36C47AFE618A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DF21EF8268E32D359CD23F2CF3EFE3 /* Foundation.framework */; };
 		4093CCA950CA410E20B96D23583B25FA /* SPTSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = DB3C7F104997FF9C3215A8B618C5254B /* SPTSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		41CC214541946B82A25CE427BB81ABEA /* EXPMatchers+beKindOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BA779CF384EFE0A48764A56CE5D81CF /* EXPMatchers+beKindOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		425C4DFD1FAB011D70F825631144BC4C /* EXPMatchers+equal.h in Headers */ = {isa = PBXBuildFile; fileRef = 528F0ECE99102DA8F8A355F4848E0874 /* EXPMatchers+equal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4428B77B414A3DEF04DFA05F27B6A90D /* KarteTrackerAppProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 782B79E98184ED27CAF91A48338EEB28 /* KarteTrackerAppProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47D171E32EAE4FB61A9971B9BC00226D /* EXPMatchers+beLessThan.m in Sources */ = {isa = PBXBuildFile; fileRef = D2280AA9E01E3D8507B4AD01AB328A90 /* EXPMatchers+beLessThan.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		4861F2FFD5A4306E7B7BD3CD0D8199AC /* EXPMatchers+beCloseTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 696EFBA57677B2241183F021FA0E849E /* EXPMatchers+beCloseTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49C7F6D2B28ADE4B4F1092006DA81D5C /* KarteTrackerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4568DA8E02814CB58D985FB9195372 /* KarteTrackerConfig.m */; };
 		4CA4F8F64565882DCFA174872749C0EF /* EXPFloatTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C955C3F372B049C5507CD1106795232 /* EXPFloatTuple.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D82000483CDD5D6939006A5F5FC68A8 /* SpectaDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = F6ACB128F686C80F4F301B98BE683EB2 /* SpectaDSL.m */; };
 		508B6D0572C0C3B4A3E019B814595D4A /* EXPMatchers+beInTheRangeOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F102C1BF943F5B591071C7D31368125 /* EXPMatchers+beInTheRangeOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -52,25 +49,28 @@
 		60CD83FA1B2BF6E93B59834C1E0CBEF0 /* EXPUnsupportedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = D72648E7977F040C31023314305D3741 /* EXPUnsupportedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		61C165FC0945BF2DC5E510AD689E4503 /* XCTestCase+Specta.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC44748C54C4F0EB1B67B11B3BF4AB0 /* XCTestCase+Specta.m */; };
 		64C46AF200F2347115A0DF2799D6E403 /* EXPMatchers+beNil.h in Headers */ = {isa = PBXBuildFile; fileRef = EFAD4455F216E152DC755D7DBC282C1B /* EXPMatchers+beNil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		678BD3EA33F2DE8490C2EA013496840D /* KarteTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E074ACF7EBC05F8DFF797E5C16E6E4 /* KarteTracker.m */; };
 		68C7847E8A6AE1722DC69525628539A4 /* SPTCompiledExample.h in Headers */ = {isa = PBXBuildFile; fileRef = 7742D95D011C6107257B870E401179DA /* SPTCompiledExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C1893062B88B430BE46AA11832574AD /* KarteTrackerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DC3B98667283F174F997800A6C4B4B /* KarteTrackerUtil.m */; };
-		6D04EC1716217CB5B81B320D7440CAF2 /* KarteTrackerConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 2215EF23F37D9F9150A55EAC662464CE /* KarteTrackerConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CB21A8E17E94392493A67AF467E3286 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */; };
 		6F562285B93F41B64870A82F3944CEE3 /* XCTest+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 32E915367364EE696581ADE5B0EBB724 /* XCTest+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		717AD2EFA357B7DD55BCA9DCE1CDDFBF /* KarteTrackerConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = B46BA076BC4CB1EA5A0EABB9CF5D000F /* KarteTrackerConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7229F0BFD728742E76904F94B73DD893 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FBDD60AB5EC0183A198A13D9A5D7BCE /* XCTest.framework */; };
 		778C9F1A1715E05313578E39AB46726E /* EXPMatchers+beInstanceOf.m in Sources */ = {isa = PBXBuildFile; fileRef = C5115506DA59576BD19A9DB5D29285B0 /* EXPMatchers+beInstanceOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		7E81176499F06E523CE3039B08AB5051 /* EXPMatchers+beGreaterThan.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B80575877C0C5BBD41271C77E266FB1 /* EXPMatchers+beGreaterThan.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		805A625C8FDE6891A895CB077A116664 /* Specta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86764CD5E068EE1D4E2CE9B6524A1A87 /* Specta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8220368E5F7EA70947BAD2B6F216C61B /* EXPMatchers+beFalsy.m in Sources */ = {isa = PBXBuildFile; fileRef = A02A66A7812C734988DB340C2387F78F /* EXPMatchers+beFalsy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		870CAAA15357EFF9E1619737DEE56067 /* EXPMatchers+raiseWithReason.m in Sources */ = {isa = PBXBuildFile; fileRef = 9757CB6F9C376A0127B2991633469B9F /* EXPMatchers+raiseWithReason.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		87AE70A44BD8E8676B2A3EDB6E334138 /* EXPMatchers+endWith.h in Headers */ = {isa = PBXBuildFile; fileRef = 013E9AABD887095D85E450EF9115F0C7 /* EXPMatchers+endWith.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88BD082A3EDFC042A1E8A769B1819B55 /* KarteTrackerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B512316CC8FE2CAC442D15B70FC51A9D /* KarteTrackerUtil.m */; };
 		8B0A34DADDB56E70CF4A5177E65AA081 /* ExpectaObject.h in Headers */ = {isa = PBXBuildFile; fileRef = EE31485835A7EE59313C0129596E6AB5 /* ExpectaObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B8C4B3E28E6FC6D26037EFC282BE4C5 /* EXPMatchers+beIdenticalTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8899B7E7B53C002963EFC71225A5DFED /* EXPMatchers+beIdenticalTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C14546CF091E0A5B1F0F37F576990B8 /* EXPMatchers+beginWith.h in Headers */ = {isa = PBXBuildFile; fileRef = 535057E74964CEA0C9B3282E7B990F13 /* EXPMatchers+beginWith.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E05B1A027A1EEC100CC1D11115E9032 /* KarteTrackerAppProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DE6FFE98F753993B6936D166F26E606 /* KarteTrackerAppProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F990515E868D90C15D2148DD1A22403 /* EXPMatchers+haveCountOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EF634AC5F2961777294ED086AA47B93 /* EXPMatchers+haveCountOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		952F5C91204BB900C14BAFC73C12AEAC /* SPTCallSite.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F2AA05F708BFE272A979707A3C62B1 /* SPTCallSite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9687D6D66BCF74875618DEE15C87A870 /* SPTSharedExampleGroups.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C03B500DF250411F8061B8C781A40C3 /* SPTSharedExampleGroups.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98571BE17A46245CA1717CF9157A0807 /* EXPMatchers+beTruthy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7906274BF59395E087163204F3E49E96 /* EXPMatchers+beTruthy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		98AFFB22FF3ACA5EA5B06B576C7C5E33 /* Pods-KarteTracker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8194EE020517BF4855050EEE42818737 /* Pods-KarteTracker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98CF1F178C83AC4F2EF3B1CBD2CF49FF /* KarteTracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4260708E1E46F613CC1B6272FFEE2247 /* KarteTracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		99E6D51A8A4E3FFB7601D182D995A3BA /* ExpectaObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DE4514181AEC3F89E9996ED0F43B6A /* ExpectaObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9A0ADF06F5B6BC3A70EDE1285BAF9346 /* EXPMatchers+beCloseTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 834F5A87CE536FB32AAAAB0B133341C2 /* EXPMatchers+beCloseTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9CAFC7DAE2E661FC92393E5CC55D1D61 /* EXPMatchers.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B0D4FD8A8526E4C6CCD7EF479B5EF37 /* EXPMatchers.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -81,30 +81,27 @@
 		A037AD9C808583B3EC9F49B3EEDA588A /* EXPMatchers+beginWith.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCA195BA4A30B9B291584A693952D7E /* EXPMatchers+beginWith.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A0612BA825C81CE45266B214DF3A8BCB /* EXPMatchers+respondTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8748C036805E79DC0A0E2E7B93D24052 /* EXPMatchers+respondTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A0B36C4898CD3A75ED692AE1B945EFED /* Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DEEED9004CCD60F080477FD1674D917 /* Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2AF8281D2953706A5A018820E6FCC76 /* KarteTracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B404421447E30B4952DD76B97A6DAE9C /* KarteTracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A2D3CFFEBD3AEA2164A535192492F3B8 /* EXPMatchers+postNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 6649AD9324C1DEC5D75362CA3B7CA9E8 /* EXPMatchers+postNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A50DFB33EA9F942C19364C866891F7A6 /* KarteTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = C591CB4BBFC3A83DC226E5ED1E43F96C /* KarteTracker.m */; };
 		A61EC7389A0C473F9CA14E5B1DA9A2D4 /* SPTExcludeGlobalBeforeAfterEach.h in Headers */ = {isa = PBXBuildFile; fileRef = D85E64056EB8E3106433A175EA84208D /* SPTExcludeGlobalBeforeAfterEach.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A6CC81FC886EE8FF27EF4DD48D6F8F56 /* NSValue+Expecta.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAECDF137A4465EEB3695CD170E363B /* NSValue+Expecta.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A8446D8224F103BE7F4A5237A60F0EFB /* EXPMatchers+raise.h in Headers */ = {isa = PBXBuildFile; fileRef = 53380B90AA18C6221AE02124708CC2D8 /* EXPMatchers+raise.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA5060419F1307F5F03ECBEA70DB186C /* EXPMatchers+beLessThanOrEqualTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 12786AB509D4C9E7C283EB7AB88DB28E /* EXPMatchers+beLessThanOrEqualTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AB915D4DA21F7602EF2088F4739B1BF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DF21EF8268E32D359CD23F2CF3EFE3 /* Foundation.framework */; };
 		ABBDD0372C687211E68EDCE0166F3632 /* ExpectaSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 0401791DFFF5F15745D6598FBDE1F441 /* ExpectaSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC0AB78F3A7629ED1C7F3F82BBB3F471 /* EXPMatchers+beSupersetOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 186BA444B6E922DD7DFE81870B0FDDFE /* EXPMatchers+beSupersetOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		AE7BBD46BA00A9AC69249ADA56402162 /* EXPUnsupportedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F07FCE0D7906C51515F5C61C4A12709 /* EXPUnsupportedObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B10BF38D385B57ACD25CAEB27AF7DC05 /* Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FBF5ECFE585F1115DBCDF77C02A5709 /* Specta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1487AC2DD502CCE46631C123E047D28 /* EXPMatchers+beFalsy.h in Headers */ = {isa = PBXBuildFile; fileRef = 244FEA70472260FBBF40FABD48891D13 /* EXPMatchers+beFalsy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3F189747A7A3CEDA9200CB2749AC7D8 /* EXPMatchers+raiseWithReason.h in Headers */ = {isa = PBXBuildFile; fileRef = 0672313354537C6EC8879E9D0FCAC98D /* EXPMatchers+raiseWithReason.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B653DC39A69C3EA09CB663C489C8DC2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DF21EF8268E32D359CD23F2CF3EFE3 /* Foundation.framework */; };
-		B84B65C1F9D4566667B4B7D892184665 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AECEA2EDA41473899EE391CA038EDC38 /* XCTest.framework */; };
 		BBC7D292529B7E5DB953171190E321AF /* EXPMatchers+beGreaterThanOrEqualTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 865F4F379A41508DE76AEEE72FA2C825 /* EXPMatchers+beGreaterThanOrEqualTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC530A8234C398F9F3AD1A1D41670B65 /* EXPMatchers+match.m in Sources */ = {isa = PBXBuildFile; fileRef = 3515E72D1F10B0F1C64060EBA7D6A31B /* EXPMatchers+match.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BFC7D32CFE8200730837306AFF61E5AD /* EXPExpect.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A21BA3C2BF25679363585E8D7256FFF /* EXPExpect.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		C03B63A37906FE59DC159711E1579ADA /* Pods-KarteTracker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF0EE944DDAE3C93BCEE0D9B1BB14F1 /* Pods-KarteTracker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0F3C6FDAA13875FB7129FC999BBCED6 /* Specta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D587E9E58E76FA7567D4C5DCBAB70858 /* Specta-dummy.m */; };
 		C14CD98EE4DDC0B7689F058D5B79CC47 /* EXPMatchers+beGreaterThanOrEqualTo.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AB12C9790D1EA01FCB2E19156D280E /* EXPMatchers+beGreaterThanOrEqualTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C171A1A81793D4C52CD950264F9C107F /* KarteTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = AEFB2E15F344B0AA089A18FA5FE6BAB3 /* KarteTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C676818DADAC76EE2FDC5533CBF3648A /* EXPMatchers+haveCountOf.m in Sources */ = {isa = PBXBuildFile; fileRef = BE65869C4E2B9AC66187A2F8130F381E /* EXPMatchers+haveCountOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C741ACA0F4B5B1D1812B95D9A14697F1 /* KarteTrackerUserProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B32BF3E65326E7A7EA4EBF63261A96D /* KarteTrackerUserProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB03C337BD80CCC9DD8C923B35B5746A /* KarteTrackerUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = B83D4E17D6B4CBE8763DF220EA8E2DBB /* KarteTrackerUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8522855566DA849FDDDBA22D227133F /* KarteTrackerAppProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9876C10A82EE0437F700334F60DE41 /* KarteTrackerAppProfile.m */; };
 		CB72AA89C3C849B9014E941B7A0FD375 /* XCTestCase+Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A5835A34F72B918B4D595250EE41EF5 /* XCTestCase+Specta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB99A2D7D003745153A564346DF8ABA8 /* EXPMatchers+beSubclassOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B93236EA851BD07939D2D5E87BFB69F /* EXPMatchers+beSubclassOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD22121B77F0F8E2B6A58AF6226038C2 /* EXPMatchers+beIdenticalTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E737661775A6CF0D61CEF76848A4A /* EXPMatchers+beIdenticalTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -113,6 +110,7 @@
 		D1768C977F0CD5B420D1A1D2375CDBD4 /* Expecta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2665EB75E5CFDB5316DCF4B34038B9B /* Expecta-dummy.m */; };
 		D26E9A9577EBC5C44DBEC1FB655200C7 /* SPTSharedExampleGroups.m in Sources */ = {isa = PBXBuildFile; fileRef = 5048D0FC9047771B50C99A35B1574FE1 /* SPTSharedExampleGroups.m */; };
 		D46F9ED0CE73328E266C5E267980FB05 /* Pods-KarteTracker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 052B9C063C9B0420640CC6ED8B7703FB /* Pods-KarteTracker_Tests-dummy.m */; };
+		D62FC86EE18BBBE7EDA425132086CE15 /* KarteTrackerUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = E6F11FB1876DDC0032DFFC4E63CAAC75 /* KarteTrackerUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB8F3665E9E382DF52E0DCB4DECE5EAE /* NSObject+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 66742ADD16C24A591C9FB1A1873B4346 /* NSObject+Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DC423A980C991970F4D637AC4C47D863 /* EXPMatchers+conformTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 333EA5832724D1028C50302719C9EFAF /* EXPMatchers+conformTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DED9AE33B24B462D4B44FE94383B35F4 /* EXPMatchers+respondTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8798CAA660537F8159AE473B6CDF99B7 /* EXPMatchers+respondTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -123,10 +121,12 @@
 		E3F9BFB7BCEB91AB16E94FB6708784A6 /* SPTTestSuite.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D219CAE0489B1EC6E9B41D676DEF928 /* SPTTestSuite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E61E28B50602F353D95914765667969F /* EXPMatcherHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = D0638E9CC8C5F2E6DFC3706BB6F597D3 /* EXPMatcherHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6D59CAA2A6E134A4643254406ED11F2 /* EXPMatchers+equal.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C390F211ED6298062AC75B1BBA464F /* EXPMatchers+equal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E8251776AEE006B16E39CF214BFC0352 /* KarteTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = A52D01AB570501958019FD75DA0A8C0F /* KarteTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7B41B4BE111AE3AAAA3B56CBF0AB4D3 /* KarteTrackerUserProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFE4578443F7F45844E841C0EC38F43 /* KarteTrackerUserProfile.m */; };
 		F19BB16CD8D7BE62542AEF8C0BDFFD4B /* SPTExampleGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF3FD6895EB8144DBDBE42A747BA12D /* SPTExampleGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F74F0174B426B7EAB501A3788E5D381F /* EXPMatchers+beTruthy.h in Headers */ = {isa = PBXBuildFile; fileRef = 28F1BFE45FD9F1B847DE1D11F7FE65AE /* EXPMatchers+beTruthy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F84173A1CC6587054A5C26717F4AC92D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */; };
 		F8F53F9ACE23070627B538C32FF01F9A /* SPTCallSite.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4FC2FD5BC708F574E9449E06D542AC /* SPTCallSite.m */; };
+		F90D1B187E2E645589BD6B3FAD22270C /* KarteTracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F2E01B4A005E66A262BBDD3955CB71A /* KarteTracker-dummy.m */; };
 		F94B9BD1350F573C090B8B2188A70EFF /* SPTSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4EC1C0C132E99B823D6D988528B48C /* SPTSpec.m */; };
 		FC223395BCEE46EB920CECD38AFD4402 /* EXPMatchers+beInTheRangeOf.h in Headers */ = {isa = PBXBuildFile; fileRef = B051B27F0FA0B550F47158DF21A77B1F /* EXPMatchers+beInTheRangeOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FC6474103AA989EBD5368772037BE0BB /* EXPMatchers+beSupersetOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 24573F0442340F2F564B3BCEF00AB170 /* EXPMatchers+beSupersetOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -165,6 +165,7 @@
 		052B9C063C9B0420640CC6ED8B7703FB /* Pods-KarteTracker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KarteTracker_Tests-dummy.m"; sourceTree = "<group>"; };
 		0634E687AC6F27D892E5560BA9AE34B1 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Expecta.framework; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0672313354537C6EC8879E9D0FCAC98D /* EXPMatchers+raiseWithReason.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+raiseWithReason.h"; path = "Expecta/Matchers/EXPMatchers+raiseWithReason.h"; sourceTree = "<group>"; };
+		071A99366A79A634720D15C536FD054E /* KarteTracker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KarteTracker-prefix.pch"; sourceTree = "<group>"; };
 		0AD4960F061CD70F7FB1D8CF611B9ACB /* Pods-KarteTracker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KarteTracker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		0E7E737661775A6CF0D61CEF76848A4A /* EXPMatchers+beIdenticalTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beIdenticalTo.m"; path = "Expecta/Matchers/EXPMatchers+beIdenticalTo.m"; sourceTree = "<group>"; };
 		0F44CA64EAF3558F0AB0B779DE574524 /* EXPFloatTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPFloatTuple.m; path = Expecta/EXPFloatTuple.m; sourceTree = "<group>"; };
@@ -172,13 +173,14 @@
 		1134BDF5F577E5AA2C9485EA30AC1280 /* EXPMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatcher.h; path = Expecta/EXPMatcher.h; sourceTree = "<group>"; };
 		12786AB509D4C9E7C283EB7AB88DB28E /* EXPMatchers+beLessThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThanOrEqualTo.h"; path = "Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.h"; sourceTree = "<group>"; };
 		15C390F211ED6298062AC75B1BBA464F /* EXPMatchers+equal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+equal.m"; path = "Expecta/Matchers/EXPMatchers+equal.m"; sourceTree = "<group>"; };
+		167F762847AC302C66E294A267CB9428 /* KarteTrackerUserProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KarteTrackerUserProfile.h; path = KarteTracker/Classes/KarteTrackerUserProfile.h; sourceTree = "<group>"; };
 		186BA444B6E922DD7DFE81870B0FDDFE /* EXPMatchers+beSupersetOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beSupersetOf.m"; path = "Expecta/Matchers/EXPMatchers+beSupersetOf.m"; sourceTree = "<group>"; };
 		19B1F539CBD8CF086193E670CC48F03B /* Pods-KarteTracker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KarteTracker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		19DF715BF0ADAC3E06876CF98DA0D2E7 /* KarteTracker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KarteTracker-dummy.m"; sourceTree = "<group>"; };
+		1A85376285F0C4A97B89E8C5FCC7EEC2 /* KarteTracker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KarteTracker.xcconfig; sourceTree = "<group>"; };
 		1B61000CED5798C3E01C7D848A4078FE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C03B500DF250411F8061B8C781A40C3 /* SPTSharedExampleGroups.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSharedExampleGroups.h; path = Specta/Specta/SPTSharedExampleGroups.h; sourceTree = "<group>"; };
 		1C7F0F1894AE1A1AF178F6413EC0D93B /* EXPMatchers+beLessThanOrEqualTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beLessThanOrEqualTo.m"; path = "Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.m"; sourceTree = "<group>"; };
-		2215EF23F37D9F9150A55EAC662464CE /* KarteTrackerConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KarteTrackerConfig.h; sourceTree = "<group>"; };
+		1F9876C10A82EE0437F700334F60DE41 /* KarteTrackerAppProfile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KarteTrackerAppProfile.m; path = KarteTracker/Classes/KarteTrackerAppProfile.m; sourceTree = "<group>"; };
 		244FEA70472260FBBF40FABD48891D13 /* EXPMatchers+beFalsy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beFalsy.h"; path = "Expecta/Matchers/EXPMatchers+beFalsy.h"; sourceTree = "<group>"; };
 		24573F0442340F2F564B3BCEF00AB170 /* EXPMatchers+beSupersetOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beSupersetOf.h"; path = "Expecta/Matchers/EXPMatchers+beSupersetOf.h"; sourceTree = "<group>"; };
 		27DE4514181AEC3F89E9996ED0F43B6A /* ExpectaObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExpectaObject.m; path = Expecta/ExpectaObject.m; sourceTree = "<group>"; };
@@ -186,13 +188,10 @@
 		291DCB70D0E9673F4C7B694D6000D56E /* Pods-KarteTracker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KarteTracker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3237CD7E8560E586A918E84E9AB93FFA /* EXPMatchers+beGreaterThan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThan.m"; path = "Expecta/Matchers/EXPMatchers+beGreaterThan.m"; sourceTree = "<group>"; };
 		3291D1310DBDFFB1B308CE0F7FEC4699 /* NSValue+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValue+Expecta.h"; path = "Expecta/NSValue+Expecta.h"; sourceTree = "<group>"; };
-		32DC3B98667283F174F997800A6C4B4B /* KarteTrackerUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KarteTrackerUtil.m; sourceTree = "<group>"; };
-		32DF21EF8268E32D359CD23F2CF3EFE3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		32E915367364EE696581ADE5B0EBB724 /* XCTest+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTest+Private.h"; path = "Specta/Specta/XCTest+Private.h"; sourceTree = "<group>"; };
 		32F2AA05F708BFE272A979707A3C62B1 /* SPTCallSite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTCallSite.h; path = Specta/Specta/SPTCallSite.h; sourceTree = "<group>"; };
 		333EA5832724D1028C50302719C9EFAF /* EXPMatchers+conformTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+conformTo.h"; path = "Expecta/Matchers/EXPMatchers+conformTo.h"; sourceTree = "<group>"; };
 		336F33D9CFE9B5E1A0934D1FBA65E4AB /* Pods-KarteTracker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KarteTracker_Tests.modulemap"; sourceTree = "<group>"; };
-		339EA382D24C16F8F1C7515F33B72316 /* KarteTrackerAppProfile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KarteTrackerAppProfile.m; sourceTree = "<group>"; };
 		33A3B0AA3BC623C2D654E4008B5C0524 /* SPTGlobalBeforeAfterEach.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTGlobalBeforeAfterEach.h; path = Specta/Specta/SPTGlobalBeforeAfterEach.h; sourceTree = "<group>"; };
 		3515E72D1F10B0F1C64060EBA7D6A31B /* EXPMatchers+match.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+match.m"; path = "Expecta/Matchers/EXPMatchers+match.m"; sourceTree = "<group>"; };
 		377EA8BA0B86D648D91B3149CB5B0E6F /* Expecta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-prefix.pch"; sourceTree = "<group>"; };
@@ -202,18 +201,18 @@
 		3BA779CF384EFE0A48764A56CE5D81CF /* EXPMatchers+beKindOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beKindOf.h"; path = "Expecta/Matchers/EXPMatchers+beKindOf.h"; sourceTree = "<group>"; };
 		3EA600E6B1AE42E3FC44CB49E4A0086B /* EXPBlockDefinedMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPBlockDefinedMatcher.m; path = Expecta/EXPBlockDefinedMatcher.m; sourceTree = "<group>"; };
 		3EF634AC5F2961777294ED086AA47B93 /* EXPMatchers+haveCountOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+haveCountOf.h"; path = "Expecta/Matchers/EXPMatchers+haveCountOf.h"; sourceTree = "<group>"; };
-		4260708E1E46F613CC1B6272FFEE2247 /* KarteTracker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KarteTracker-umbrella.h"; sourceTree = "<group>"; };
+		3FBDD60AB5EC0183A198A13D9A5D7BCE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		46DA10E93A0F88A8371AABDAB0D2179A /* Specta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Specta.framework; path = Specta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B32BF3E65326E7A7EA4EBF63261A96D /* KarteTrackerUserProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KarteTrackerUserProfile.h; sourceTree = "<group>"; };
+		48E074ACF7EBC05F8DFF797E5C16E6E4 /* KarteTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KarteTracker.m; path = KarteTracker/Classes/KarteTracker.m; sourceTree = "<group>"; };
 		4BDCA4ADB95E136FB68A121D9D8FFB4A /* EXPMatchers+endWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+endWith.m"; path = "Expecta/Matchers/EXPMatchers+endWith.m"; sourceTree = "<group>"; };
 		4C955C3F372B049C5507CD1106795232 /* EXPFloatTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPFloatTuple.h; path = Expecta/EXPFloatTuple.h; sourceTree = "<group>"; };
+		4FFE4578443F7F45844E841C0EC38F43 /* KarteTrackerUserProfile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KarteTrackerUserProfile.m; path = KarteTracker/Classes/KarteTrackerUserProfile.m; sourceTree = "<group>"; };
 		5048D0FC9047771B50C99A35B1574FE1 /* SPTSharedExampleGroups.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSharedExampleGroups.m; path = Specta/Specta/SPTSharedExampleGroups.m; sourceTree = "<group>"; };
 		528F0ECE99102DA8F8A355F4848E0874 /* EXPMatchers+equal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+equal.h"; path = "Expecta/Matchers/EXPMatchers+equal.h"; sourceTree = "<group>"; };
 		53380B90AA18C6221AE02124708CC2D8 /* EXPMatchers+raise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+raise.h"; path = "Expecta/Matchers/EXPMatchers+raise.h"; sourceTree = "<group>"; };
 		535057E74964CEA0C9B3282E7B990F13 /* EXPMatchers+beginWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beginWith.h"; path = "Expecta/Matchers/EXPMatchers+beginWith.h"; sourceTree = "<group>"; };
 		55BFDC3B8F9AA155AC6F31ADD7333F04 /* SPTTestSuite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTTestSuite.m; path = Specta/Specta/SPTTestSuite.m; sourceTree = "<group>"; };
 		5995B254F8F400026042A0DD749FA27C /* SpectaDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaDSL.h; path = Specta/Specta/SpectaDSL.h; sourceTree = "<group>"; };
-		5A0A969014C9CA65B9026D39B154EC0B /* KarteTracker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KarteTracker-prefix.pch"; sourceTree = "<group>"; };
 		5A3F7EBCC8CA1A46AB9E9C3E5D41C971 /* EXPExpect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPExpect.h; path = Expecta/EXPExpect.h; sourceTree = "<group>"; };
 		5B80575877C0C5BBD41271C77E266FB1 /* EXPMatchers+beGreaterThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThan.h"; path = "Expecta/Matchers/EXPMatchers+beGreaterThan.h"; sourceTree = "<group>"; };
 		5E39B65E045992787C46DE57F9092694 /* Pods-KarteTracker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KarteTracker_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -223,26 +222,24 @@
 		6649AD9324C1DEC5D75362CA3B7CA9E8 /* EXPMatchers+postNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+postNotification.h"; path = "Expecta/Matchers/EXPMatchers+postNotification.h"; sourceTree = "<group>"; };
 		66742ADD16C24A591C9FB1A1873B4346 /* NSObject+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Expecta.h"; path = "Expecta/NSObject+Expecta.h"; sourceTree = "<group>"; };
 		696EFBA57677B2241183F021FA0E849E /* EXPMatchers+beCloseTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beCloseTo.h"; path = "Expecta/Matchers/EXPMatchers+beCloseTo.h"; sourceTree = "<group>"; };
-		6AE82F72C143991FF2172F6DA4582091 /* KarteTracker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KarteTracker.xcconfig; sourceTree = "<group>"; };
 		6B93236EA851BD07939D2D5E87BFB69F /* EXPMatchers+beSubclassOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beSubclassOf.h"; path = "Expecta/Matchers/EXPMatchers+beSubclassOf.h"; sourceTree = "<group>"; };
 		6CF0EE944DDAE3C93BCEE0D9B1BB14F1 /* Pods-KarteTracker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KarteTracker_Tests-umbrella.h"; sourceTree = "<group>"; };
 		736ED8E0D4009E98DD7131355D770F44 /* EXPDoubleTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPDoubleTuple.h; path = Expecta/EXPDoubleTuple.h; sourceTree = "<group>"; };
 		760447B89A1341CDA68F83C9AF17BFB9 /* Pods-KarteTracker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KarteTracker_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7742D95D011C6107257B870E401179DA /* SPTCompiledExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTCompiledExample.h; path = Specta/Specta/SPTCompiledExample.h; sourceTree = "<group>"; };
-		7806EB8CEE35BAE21B3CAE26871D259D /* KarteTrackerConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KarteTrackerConfig.m; sourceTree = "<group>"; };
-		782B79E98184ED27CAF91A48338EEB28 /* KarteTrackerAppProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KarteTrackerAppProfile.h; sourceTree = "<group>"; };
 		7906274BF59395E087163204F3E49E96 /* EXPMatchers+beTruthy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beTruthy.m"; path = "Expecta/Matchers/EXPMatchers+beTruthy.m"; sourceTree = "<group>"; };
 		7B0D4FD8A8526E4C6CCD7EF479B5EF37 /* EXPMatchers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatchers.h; path = Expecta/Matchers/EXPMatchers.h; sourceTree = "<group>"; };
 		7B257642D83B7E9DA049DB9A921A691C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C3F109DACDB0A6491AEC4825D8B7B31 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
 		7E3CD38EE5A25CEA479C4323D71A18A4 /* FirebaseMessaging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseMessaging.framework; path = Frameworks/frameworks/FirebaseMessaging.framework; sourceTree = "<group>"; };
+		7F2E01B4A005E66A262BBDD3955CB71A /* KarteTracker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KarteTracker-dummy.m"; sourceTree = "<group>"; };
 		7F51D17BDE58CAA7C6A69FA1F87CF907 /* EXPMatchers+conformTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+conformTo.m"; path = "Expecta/Matchers/EXPMatchers+conformTo.m"; sourceTree = "<group>"; };
 		811FFEB78AA02D2412B2AB88D41DA5EC /* Pods-KarteTracker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KarteTracker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8194EE020517BF4855050EEE42818737 /* Pods-KarteTracker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KarteTracker_Example-umbrella.h"; sourceTree = "<group>"; };
 		822B13D1E012D1AE720A324407030ADB /* SPTCompiledExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTCompiledExample.m; path = Specta/Specta/SPTCompiledExample.m; sourceTree = "<group>"; };
 		82962245D7A82E5579ED1D74904C2EE3 /* Pods-KarteTracker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KarteTracker_Example-resources.sh"; sourceTree = "<group>"; };
 		834F5A87CE536FB32AAAAB0B133341C2 /* EXPMatchers+beCloseTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beCloseTo.m"; path = "Expecta/Matchers/EXPMatchers+beCloseTo.m"; sourceTree = "<group>"; };
-		84B0196256B8BFFA7B58C2C193377324 /* KarteTracker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KarteTracker.modulemap; sourceTree = "<group>"; };
+		8495122843BABB1839729EEE9FC39A97 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		865F4F379A41508DE76AEEE72FA2C825 /* EXPMatchers+beGreaterThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThanOrEqualTo.h"; path = "Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.h"; sourceTree = "<group>"; };
 		86764CD5E068EE1D4E2CE9B6524A1A87 /* Specta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Specta-umbrella.h"; sourceTree = "<group>"; };
 		8748C036805E79DC0A0E2E7B93D24052 /* EXPMatchers+respondTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+respondTo.m"; path = "Expecta/Matchers/EXPMatchers+respondTo.m"; sourceTree = "<group>"; };
@@ -267,6 +264,7 @@
 		9AF3FD6895EB8144DBDBE42A747BA12D /* SPTExampleGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExampleGroup.h; path = Specta/Specta/SPTExampleGroup.h; sourceTree = "<group>"; };
 		9B4EC1C0C132E99B823D6D988528B48C /* SPTSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSpec.m; path = Specta/Specta/SPTSpec.m; sourceTree = "<group>"; };
 		9D6330BD87D9FEBA11DB11FA238CC1F1 /* SpectaTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaTypes.h; path = Specta/Specta/SpectaTypes.h; sourceTree = "<group>"; };
+		9DE6FFE98F753993B6936D166F26E606 /* KarteTrackerAppProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KarteTrackerAppProfile.h; path = KarteTracker/Classes/KarteTrackerAppProfile.h; sourceTree = "<group>"; };
 		9F102C1BF943F5B591071C7D31368125 /* EXPMatchers+beInTheRangeOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beInTheRangeOf.m"; path = "Expecta/Matchers/EXPMatchers+beInTheRangeOf.m"; sourceTree = "<group>"; };
 		9FBF5ECFE585F1115DBCDF77C02A5709 /* Specta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Specta.h; path = Specta/Specta/Specta.h; sourceTree = "<group>"; };
 		9FDCD0D71C3AC5097A69806F23B15B1D /* Pods-KarteTracker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KarteTracker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -276,16 +274,17 @@
 		A226FF39E0C97C7BE6D1B1029DCBD3D4 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
 		A2665EB75E5CFDB5316DCF4B34038B9B /* Expecta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Expecta-dummy.m"; sourceTree = "<group>"; };
 		A2AF1D9202FB5CE479DEA64D1BBBDF58 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
-		A52D01AB570501958019FD75DA0A8C0F /* KarteTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KarteTracker.h; sourceTree = "<group>"; };
 		A80D36062694B01124A82E871F91D121 /* Pods-KarteTracker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KarteTracker_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		A874D603E5AA802D4DC553F17B612980 /* FIRMessaging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRMessaging.h; path = Sources/FIRMessaging.h; sourceTree = "<group>"; };
 		AC23D18BDE296002B059DA30CFD2E021 /* EXPMatchers+beSubclassOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beSubclassOf.m"; path = "Expecta/Matchers/EXPMatchers+beSubclassOf.m"; sourceTree = "<group>"; };
-		AECEA2EDA41473899EE391CA038EDC38 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AEFB2E15F344B0AA089A18FA5FE6BAB3 /* KarteTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KarteTracker.h; path = KarteTracker/Classes/KarteTracker.h; sourceTree = "<group>"; };
 		B051B27F0FA0B550F47158DF21A77B1F /* EXPMatchers+beInTheRangeOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInTheRangeOf.h"; path = "Expecta/Matchers/EXPMatchers+beInTheRangeOf.h"; sourceTree = "<group>"; };
 		B1151F4AA8C81AE7D7A614BB889A332C /* ExpectaSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExpectaSupport.m; path = Expecta/ExpectaSupport.m; sourceTree = "<group>"; };
+		B404421447E30B4952DD76B97A6DAE9C /* KarteTracker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KarteTracker-umbrella.h"; sourceTree = "<group>"; };
+		B46BA076BC4CB1EA5A0EABB9CF5D000F /* KarteTrackerConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KarteTrackerConfig.h; path = KarteTracker/Classes/KarteTrackerConfig.h; sourceTree = "<group>"; };
+		B512316CC8FE2CAC442D15B70FC51A9D /* KarteTrackerUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KarteTrackerUtil.m; path = KarteTracker/Classes/KarteTrackerUtil.m; sourceTree = "<group>"; };
 		B59103C95197132D80EE5A34D8D413EB /* EXPMatchers+beLessThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThan.h"; path = "Expecta/Matchers/EXPMatchers+beLessThan.h"; sourceTree = "<group>"; };
 		B71E9F648F45C65CB90A381A9BC5ED27 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Analytics/Sources/Firebase.h; sourceTree = "<group>"; };
-		B83D4E17D6B4CBE8763DF220EA8E2DBB /* KarteTrackerUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KarteTrackerUtil.h; sourceTree = "<group>"; };
 		BD3D39A10E555532E85259027BAED059 /* Pods_KarteTracker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KarteTracker_Example.framework; path = "Pods-KarteTracker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE3699D1C9E2ADC47833C2C6D9FBDB7E /* Specta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Specta.xcconfig; sourceTree = "<group>"; };
 		BE65869C4E2B9AC66187A2F8130F381E /* EXPMatchers+haveCountOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+haveCountOf.m"; path = "Expecta/Matchers/EXPMatchers+haveCountOf.m"; sourceTree = "<group>"; };
@@ -293,14 +292,13 @@
 		C1373EF7675494E1CCF81E857522FF72 /* EXPMatchers+beKindOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beKindOf.m"; path = "Expecta/Matchers/EXPMatchers+beKindOf.m"; sourceTree = "<group>"; };
 		C3D15949AE71DD3C9A9F9D2A6BF12E81 /* EXPMatchers+raise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+raise.m"; path = "Expecta/Matchers/EXPMatchers+raise.m"; sourceTree = "<group>"; };
 		C5115506DA59576BD19A9DB5D29285B0 /* EXPMatchers+beInstanceOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beInstanceOf.m"; path = "Expecta/Matchers/EXPMatchers+beInstanceOf.m"; sourceTree = "<group>"; };
-		C591CB4BBFC3A83DC226E5ED1E43F96C /* KarteTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KarteTracker.m; sourceTree = "<group>"; };
 		CABEE8AAC099510F3BA024D3BB7CDED6 /* KarteTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KarteTracker.framework; path = KarteTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB653E29C5A0C089A027EB4B8485B110 /* KarteTracker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KarteTracker.modulemap; sourceTree = "<group>"; };
 		CDCA195BA4A30B9B291584A693952D7E /* EXPMatchers+beginWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beginWith.m"; path = "Expecta/Matchers/EXPMatchers+beginWith.m"; sourceTree = "<group>"; };
 		D0638E9CC8C5F2E6DFC3706BB6F597D3 /* EXPMatcherHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatcherHelpers.h; path = Expecta/Matchers/EXPMatcherHelpers.h; sourceTree = "<group>"; };
 		D17A73C34ECC142D5273EDFEEB654DC4 /* EXPDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPDefines.h; path = Expecta/EXPDefines.h; sourceTree = "<group>"; };
 		D2280AA9E01E3D8507B4AD01AB328A90 /* EXPMatchers+beLessThan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beLessThan.m"; path = "Expecta/Matchers/EXPMatchers+beLessThan.m"; sourceTree = "<group>"; };
 		D587E9E58E76FA7567D4C5DCBAB70858 /* Specta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Specta-dummy.m"; sourceTree = "<group>"; };
-		D64C0BF7CBD088E56DD9FE82D07075E3 /* KarteTrackerUserProfile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KarteTrackerUserProfile.m; sourceTree = "<group>"; };
 		D72648E7977F040C31023314305D3741 /* EXPUnsupportedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPUnsupportedObject.h; path = Expecta/EXPUnsupportedObject.h; sourceTree = "<group>"; };
 		D85E64056EB8E3106433A175EA84208D /* SPTExcludeGlobalBeforeAfterEach.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExcludeGlobalBeforeAfterEach.h; path = Specta/Specta/SPTExcludeGlobalBeforeAfterEach.h; sourceTree = "<group>"; };
 		D99728466B88394528A369AE7249821D /* GoogleIPhoneUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleIPhoneUtilities.framework; path = Frameworks/GoogleIPhoneUtilities.framework; sourceTree = "<group>"; };
@@ -308,11 +306,13 @@
 		DB1D7C0816193C74F39BF833EADEA716 /* EXPMatchers+beNil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beNil.m"; path = "Expecta/Matchers/EXPMatchers+beNil.m"; sourceTree = "<group>"; };
 		DB3C7F104997FF9C3215A8B618C5254B /* SPTSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSpec.h; path = Specta/Specta/SPTSpec.h; sourceTree = "<group>"; };
 		DD7F7C7C10FB725B6CCF48AF77B34296 /* EXPDoubleTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPDoubleTuple.m; path = Expecta/EXPDoubleTuple.m; sourceTree = "<group>"; };
-		E0BD5084F33359337DA3D08AF0D86C41 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1AB12C9790D1EA01FCB2E19156D280E /* EXPMatchers+beGreaterThanOrEqualTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThanOrEqualTo.m"; path = "Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.m"; sourceTree = "<group>"; };
 		E202E482CB3220AB334D074BC02C8D89 /* EXPMatchers+beInstanceOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInstanceOf.h"; path = "Expecta/Matchers/EXPMatchers+beInstanceOf.h"; sourceTree = "<group>"; };
+		E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E6C8BBEEA6DB4482AB15223BFADDF53D /* EXPMatchers+contain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+contain.h"; path = "Expecta/Matchers/EXPMatchers+contain.h"; sourceTree = "<group>"; };
+		E6F11FB1876DDC0032DFFC4E63CAAC75 /* KarteTrackerUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KarteTrackerUtil.h; path = KarteTracker/Classes/KarteTrackerUtil.h; sourceTree = "<group>"; };
 		E85B9197EB2951E834C9772282A136A9 /* EXPMatchers+contain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+contain.m"; path = "Expecta/Matchers/EXPMatchers+contain.m"; sourceTree = "<group>"; };
+		EA4568DA8E02814CB58D985FB9195372 /* KarteTrackerConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KarteTrackerConfig.m; path = KarteTracker/Classes/KarteTrackerConfig.m; sourceTree = "<group>"; };
 		EA4FC2FD5BC708F574E9449E06D542AC /* SPTCallSite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTCallSite.m; path = Specta/Specta/SPTCallSite.m; sourceTree = "<group>"; };
 		EE31485835A7EE59313C0129596E6AB5 /* ExpectaObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExpectaObject.h; path = Expecta/ExpectaObject.h; sourceTree = "<group>"; };
 		EE4EC318A799D6D1B5BD039AD4FD0EBE /* Expecta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-umbrella.h"; sourceTree = "<group>"; };
@@ -330,8 +330,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B653DC39A69C3EA09CB663C489C8DC2D /* Foundation.framework in Frameworks */,
-				B84B65C1F9D4566667B4B7D892184665 /* XCTest.framework in Frameworks */,
+				6CB21A8E17E94392493A67AF467E3286 /* Foundation.framework in Frameworks */,
+				7229F0BFD728742E76904F94B73DD893 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,7 +339,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB915D4DA21F7602EF2088F4739B1BF4 /* Foundation.framework in Frameworks */,
+				041DB1B527C2BA129C71E17A131EA733 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +347,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04857F529C67BB690A0645D6EE5F9A2C /* Foundation.framework in Frameworks */,
+				F84173A1CC6587054A5C26717F4AC92D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,8 +355,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D1C615E741E95E2199E36C47AFE618A /* Foundation.framework in Frameworks */,
-				0B11B174B2ADC6056A89A3EBE624151D /* XCTest.framework in Frameworks */,
+				09B18A0AFD81C25D53BC3FC246DA2349 /* Foundation.framework in Frameworks */,
+				11948E16BF3548C7BABF77C532966B84 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +364,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ABFD8268C61A52E4AB5E3CE72F56681 /* Foundation.framework in Frameworks */,
+				2931BB37667BA575500328328BEAD426 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,10 +453,18 @@
 			path = Expecta;
 			sourceTree = "<group>";
 		};
+		348E4FE76A6FCF0113B53154E92B960E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF07A153C1E3ADA797642C4F7CAB685A /* KarteTracker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9D9CFF97A2D41D7CB20A427D5386C7A6 /* iOS */,
+				7BE34EE7067F7CC8A54539A282682749 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -592,11 +600,20 @@
 			path = GoogleSymbolUtilities;
 			sourceTree = "<group>";
 		};
+		7BE34EE7067F7CC8A54539A282682749 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */,
+				3FBDD60AB5EC0183A198A13D9A5D7BCE /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				D30252DBAB1600AC57215DD10A87E579 /* Development Pods */,
+				348E4FE76A6FCF0113B53154E92B960E /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				D743C9FB70F8FC2219EF6EF4266BA999 /* Pods */,
 				B223258909A73EB396150314C9180152 /* Products */,
@@ -621,30 +638,12 @@
 			path = FirebaseAnalytics;
 			sourceTree = "<group>";
 		};
-		9D9CFF97A2D41D7CB20A427D5386C7A6 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				32DF21EF8268E32D359CD23F2CF3EFE3 /* Foundation.framework */,
-				AECEA2EDA41473899EE391CA038EDC38 /* XCTest.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		A02372DDD2F3EAB8AC1FE36A0EE7DB3D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				A2AF1D9202FB5CE479DEA64D1BBBDF58 /* FirebaseInstanceID.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		AAFC5408F09F8106E52A4359D4E63657 /* KarteTracker */ = {
-			isa = PBXGroup;
-			children = (
-				EBC8B05EFB1C90786BE3BD94F36FC25C /* Classes */,
-			);
-			name = KarteTracker;
-			path = KarteTracker;
 			sourceTree = "<group>";
 		};
 		B223258909A73EB396150314C9180152 /* Products */ = {
@@ -693,6 +692,25 @@
 			path = Specta;
 			sourceTree = "<group>";
 		};
+		BF07A153C1E3ADA797642C4F7CAB685A /* KarteTracker */ = {
+			isa = PBXGroup;
+			children = (
+				AEFB2E15F344B0AA089A18FA5FE6BAB3 /* KarteTracker.h */,
+				48E074ACF7EBC05F8DFF797E5C16E6E4 /* KarteTracker.m */,
+				9DE6FFE98F753993B6936D166F26E606 /* KarteTrackerAppProfile.h */,
+				1F9876C10A82EE0437F700334F60DE41 /* KarteTrackerAppProfile.m */,
+				B46BA076BC4CB1EA5A0EABB9CF5D000F /* KarteTrackerConfig.h */,
+				EA4568DA8E02814CB58D985FB9195372 /* KarteTrackerConfig.m */,
+				167F762847AC302C66E294A267CB9428 /* KarteTrackerUserProfile.h */,
+				4FFE4578443F7F45844E841C0EC38F43 /* KarteTrackerUserProfile.m */,
+				E6F11FB1876DDC0032DFFC4E63CAAC75 /* KarteTrackerUtil.h */,
+				B512316CC8FE2CAC442D15B70FC51A9D /* KarteTrackerUtil.m */,
+				DD10EC2C32718FF0573ADFF8B536C665 /* Support Files */,
+			);
+			name = KarteTracker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		C5AAB9D1883E1CD40EE71B8F01CBDD37 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -723,14 +741,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D30252DBAB1600AC57215DD10A87E579 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F5D08E4D0C0BD00A646C146F858CDE07 /* KarteTracker */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		D743C9FB70F8FC2219EF6EF4266BA999 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -746,6 +756,20 @@
 				BD668C1919F5BFE70FEAE51A64BFCBCA /* Specta */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		DD10EC2C32718FF0573ADFF8B536C665 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8495122843BABB1839729EEE9FC39A97 /* Info.plist */,
+				CB653E29C5A0C089A027EB4B8485B110 /* KarteTracker.modulemap */,
+				1A85376285F0C4A97B89E8C5FCC7EEC2 /* KarteTracker.xcconfig */,
+				7F2E01B4A005E66A262BBDD3955CB71A /* KarteTracker-dummy.m */,
+				071A99366A79A634720D15C536FD054E /* KarteTracker-prefix.pch */,
+				B404421447E30B4952DD76B97A6DAE9C /* KarteTracker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KarteTracker";
 			sourceTree = "<group>";
 		};
 		DDEF86F4CE2B687B4A21DF5898FD0028 /* Analytics */ = {
@@ -764,38 +788,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E6B3C4DB280A304A12AF818F9F89493C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E0BD5084F33359337DA3D08AF0D86C41 /* Info.plist */,
-				84B0196256B8BFFA7B58C2C193377324 /* KarteTracker.modulemap */,
-				6AE82F72C143991FF2172F6DA4582091 /* KarteTracker.xcconfig */,
-				19DF715BF0ADAC3E06876CF98DA0D2E7 /* KarteTracker-dummy.m */,
-				5A0A969014C9CA65B9026D39B154EC0B /* KarteTracker-prefix.pch */,
-				4260708E1E46F613CC1B6272FFEE2247 /* KarteTracker-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/KarteTracker";
-			sourceTree = "<group>";
-		};
-		EBC8B05EFB1C90786BE3BD94F36FC25C /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				A52D01AB570501958019FD75DA0A8C0F /* KarteTracker.h */,
-				C591CB4BBFC3A83DC226E5ED1E43F96C /* KarteTracker.m */,
-				782B79E98184ED27CAF91A48338EEB28 /* KarteTrackerAppProfile.h */,
-				339EA382D24C16F8F1C7515F33B72316 /* KarteTrackerAppProfile.m */,
-				2215EF23F37D9F9150A55EAC662464CE /* KarteTrackerConfig.h */,
-				7806EB8CEE35BAE21B3CAE26871D259D /* KarteTrackerConfig.m */,
-				4B32BF3E65326E7A7EA4EBF63261A96D /* KarteTrackerUserProfile.h */,
-				D64C0BF7CBD088E56DD9FE82D07075E3 /* KarteTrackerUserProfile.m */,
-				B83D4E17D6B4CBE8763DF220EA8E2DBB /* KarteTrackerUtil.h */,
-				32DC3B98667283F174F997800A6C4B4B /* KarteTrackerUtil.m */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		F3D4AA7094EB7172BB8820E530185B16 /* GoogleIPhoneUtilities */ = {
 			isa = PBXGroup;
 			children = (
@@ -805,32 +797,9 @@
 			path = GoogleIPhoneUtilities;
 			sourceTree = "<group>";
 		};
-		F5D08E4D0C0BD00A646C146F858CDE07 /* KarteTracker */ = {
-			isa = PBXGroup;
-			children = (
-				AAFC5408F09F8106E52A4359D4E63657 /* KarteTracker */,
-				E6B3C4DB280A304A12AF818F9F89493C /* Support Files */,
-			);
-			name = KarteTracker;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0EAC8AF5B228C19C6ADB43CD762FE020 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				98CF1F178C83AC4F2EF3B1CBD2CF49FF /* KarteTracker-umbrella.h in Headers */,
-				E8251776AEE006B16E39CF214BFC0352 /* KarteTracker.h in Headers */,
-				4428B77B414A3DEF04DFA05F27B6A90D /* KarteTrackerAppProfile.h in Headers */,
-				6D04EC1716217CB5B81B320D7440CAF2 /* KarteTrackerConfig.h in Headers */,
-				C741ACA0F4B5B1D1812B95D9A14697F1 /* KarteTrackerUserProfile.h in Headers */,
-				CB03C337BD80CCC9DD8C923B35B5746A /* KarteTrackerUtil.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		92CF8202607080A615609E18CB36CCF1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -875,6 +844,19 @@
 				60CD83FA1B2BF6E93B59834C1E0CBEF0 /* EXPUnsupportedObject.h in Headers */,
 				DB8F3665E9E382DF52E0DCB4DECE5EAE /* NSObject+Expecta.h in Headers */,
 				5922E3B61E351E2A21095BD92E4FE8AC /* NSValue+Expecta.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6C6FB87F470E7E3A3AA82408143DC16 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2AF8281D2953706A5A018820E6FCC76 /* KarteTracker-umbrella.h in Headers */,
+				C171A1A81793D4C52CD950264F9C107F /* KarteTracker.h in Headers */,
+				8E05B1A027A1EEC100CC1D11115E9032 /* KarteTrackerAppProfile.h in Headers */,
+				717AD2EFA357B7DD55BCA9DCE1CDDFBF /* KarteTrackerConfig.h in Headers */,
+				2B963DCFBA2F9133F8F3CE3EBBD85867 /* KarteTrackerUserProfile.h in Headers */,
+				D62FC86EE18BBBE7EDA425132086CE15 /* KarteTrackerUtil.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -976,9 +958,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E7CC30FD3EDE2617556795E67CE79C9 /* Build configuration list for PBXNativeTarget "KarteTracker" */;
 			buildPhases = (
-				2B76D754B187BEF96C6CF454A9431CB0 /* Sources */,
+				ED5C7B463B957253FA24F504ED9E8191 /* Sources */,
 				5CB4A63952C74EA6B9864B37F982CA36 /* Frameworks */,
-				0EAC8AF5B228C19C6ADB43CD762FE020 /* Headers */,
+				A6C6FB87F470E7E3A3AA82408143DC16 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -1014,7 +996,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -1044,19 +1026,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EF1DC34FBA72DAB640938A5F4D59BEE /* Pods-KarteTracker_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2B76D754B187BEF96C6CF454A9431CB0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2DAAEE0B719A256DFDCDFB8EE06BEC90 /* KarteTracker-dummy.m in Sources */,
-				A50DFB33EA9F942C19364C866891F7A6 /* KarteTracker.m in Sources */,
-				137705AE3AD9E1D5344F55000A0427AD /* KarteTrackerAppProfile.m in Sources */,
-				2E4BD00F39FDE3496CC11083BE9BB953 /* KarteTrackerConfig.m in Sources */,
-				35516D2A1395766575A16CFEF1C6EDA6 /* KarteTrackerUserProfile.m in Sources */,
-				6C1893062B88B430BE46AA11832574AD /* KarteTrackerUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1128,6 +1097,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ED5C7B463B957253FA24F504ED9E8191 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90D1B187E2E645589BD6B3FAD22270C /* KarteTracker-dummy.m in Sources */,
+				678BD3EA33F2DE8490C2EA013496840D /* KarteTracker.m in Sources */,
+				C8522855566DA849FDDDBA22D227133F /* KarteTrackerAppProfile.m in Sources */,
+				49C7F6D2B28ADE4B4F1092006DA81D5C /* KarteTrackerConfig.m in Sources */,
+				E7B41B4BE111AE3AAAA3B56CBF0AB4D3 /* KarteTrackerUserProfile.m in Sources */,
+				88BD082A3EDFC042A1E8A769B1819B55 /* KarteTrackerUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1152,372 +1134,115 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0966423A4684CEC6D35061AFFC6AB99A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8909542B13B0A3BBB17CF77BF29B5240 /* Pods-KarteTracker_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-KarteTracker_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KarteTracker_Example/Pods-KarteTracker_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_KarteTracker_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		0B761014A3A47F1C6430F4BD007117BF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 760447B89A1341CDA68F83C9AF17BFB9 /* Pods-KarteTracker_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-KarteTracker_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KarteTracker_Example/Pods-KarteTracker_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_KarteTracker_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1987A3D9ED8636F007D24E1D0355EE5C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97836591E1785839291A4781AC707EDF /* Expecta.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Expecta/Expecta-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Expecta/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Expecta/Expecta.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Expecta;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		504FD164707F68134F58AF4233BF0D18 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6AE82F72C143991FF2172F6DA4582091 /* KarteTracker.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/KarteTracker/KarteTracker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KarteTracker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KarteTracker/KarteTracker.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = KarteTracker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		59657E777B6112261C710992BFF2407A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6AE82F72C143991FF2172F6DA4582091 /* KarteTracker.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/KarteTracker/KarteTracker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KarteTracker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KarteTracker/KarteTracker.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = KarteTracker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+		1CDAB5613991E411E5990BAF694995C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		97315781ED612BDEA8874693FADB56E6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE3699D1C9E2ADC47833C2C6D9FBDB7E /* Specta.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Specta/Specta-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Specta/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Specta/Specta.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Specta;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9AF59CD428E8A8FFF2E1EE494838A0AE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FDCD0D71C3AC5097A69806F23B15B1D /* Pods-KarteTracker_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-KarteTracker_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KarteTracker_Tests/Pods-KarteTracker_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_KarteTracker_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		D7F4CCBFAC456279EC6B35C7AD71375D /* Debug */ = {
+		66421D7778066A214D74300C7FA5E980 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BE3699D1C9E2ADC47833C2C6D9FBDB7E /* Specta.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Specta/Specta-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Specta/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Specta/Specta.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = Specta;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		DA1477B3CB95AA7C38421B6A15F6AA39 /* Release */ = {
+		665E4E8BF5CDEA9FCFBB02315A21032D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E39B65E045992787C46DE57F9092694 /* Pods-KarteTracker_Tests.release.xcconfig */;
+			baseConfigurationReference = 9FDCD0D71C3AC5097A69806F23B15B1D /* Pods-KarteTracker_Tests.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-KarteTracker_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-KarteTracker_Tests/Pods-KarteTracker_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1529,33 +1254,302 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
+			name = Debug;
+		};
+		7B62A85C412D689EF418FA67DA770A41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
 			name = Release;
 		};
-		E4D0638570D08B8A27B34DC50D34F47E /* Debug */ = {
+		8A3A37B52352E088CBA5E2CF1DD3ECE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97836591E1785839291A4781AC707EDF /* Expecta.xcconfig */;
+			baseConfigurationReference = BE3699D1C9E2ADC47833C2C6D9FBDB7E /* Specta.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Specta/Specta-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Specta/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Specta/Specta.modulemap";
+				PRODUCT_NAME = Specta;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F74902C2776117F6E6EDA360A09CBE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8909542B13B0A3BBB17CF77BF29B5240 /* Pods-KarteTracker_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KarteTracker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KarteTracker_Example/Pods-KarteTracker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KarteTracker_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		970BC33C22805416B781157D4E7B2822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 760447B89A1341CDA68F83C9AF17BFB9 /* Pods-KarteTracker_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KarteTracker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KarteTracker_Example/Pods-KarteTracker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KarteTracker_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AE985C93405173BEE3C896540E087101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A85376285F0C4A97B89E8C5FCC7EEC2 /* KarteTracker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KarteTracker/KarteTracker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KarteTracker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KarteTracker/KarteTracker.modulemap";
+				PRODUCT_NAME = KarteTracker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C32A2B860FAB4960C7E591A3A8F31465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97836591E1785839291A4781AC707EDF /* Expecta.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/Expecta/Expecta-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Expecta/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Expecta/Expecta.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = Expecta;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D6FBAC7B5E6762322DDAEAFBD5F33CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A85376285F0C4A97B89E8C5FCC7EEC2 /* KarteTracker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KarteTracker/KarteTracker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KarteTracker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KarteTracker/KarteTracker.modulemap";
+				PRODUCT_NAME = KarteTracker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F2F437DBAE38DE497BCBAD58ACC8F95B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E39B65E045992787C46DE57F9092694 /* Pods-KarteTracker_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KarteTracker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KarteTracker_Tests/Pods-KarteTracker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KarteTracker_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FD88F8B1E5A792FF8C0BC3B33047A1D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97836591E1785839291A4781AC707EDF /* Expecta.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Expecta/Expecta-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Expecta/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Expecta/Expecta.modulemap";
+				PRODUCT_NAME = Expecta;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1568,8 +1562,8 @@
 		09381A9A84A0A8E73577B2BF10E583E5 /* Build configuration list for PBXNativeTarget "Expecta" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E4D0638570D08B8A27B34DC50D34F47E /* Debug */,
-				1987A3D9ED8636F007D24E1D0355EE5C /* Release */,
+				FD88F8B1E5A792FF8C0BC3B33047A1D1 /* Debug */,
+				C32A2B860FAB4960C7E591A3A8F31465 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1577,8 +1571,8 @@
 		1E1E08EF2684E7D82273A362DE462214 /* Build configuration list for PBXNativeTarget "Pods-KarteTracker_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0966423A4684CEC6D35061AFFC6AB99A /* Debug */,
-				0B761014A3A47F1C6430F4BD007117BF /* Release */,
+				8F74902C2776117F6E6EDA360A09CBE7 /* Debug */,
+				970BC33C22805416B781157D4E7B2822 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1586,8 +1580,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
-				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+				1CDAB5613991E411E5990BAF694995C5 /* Debug */,
+				7B62A85C412D689EF418FA67DA770A41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1595,8 +1589,8 @@
 		8045F3D8711F0746952167E022C33388 /* Build configuration list for PBXNativeTarget "Pods-KarteTracker_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9AF59CD428E8A8FFF2E1EE494838A0AE /* Debug */,
-				DA1477B3CB95AA7C38421B6A15F6AA39 /* Release */,
+				665E4E8BF5CDEA9FCFBB02315A21032D /* Debug */,
+				F2F437DBAE38DE497BCBAD58ACC8F95B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1604,8 +1598,8 @@
 		9E7CC30FD3EDE2617556795E67CE79C9 /* Build configuration list for PBXNativeTarget "KarteTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				59657E777B6112261C710992BFF2407A /* Debug */,
-				504FD164707F68134F58AF4233BF0D18 /* Release */,
+				AE985C93405173BEE3C896540E087101 /* Debug */,
+				D6FBAC7B5E6762322DDAEAFBD5F33CE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1613,8 +1607,8 @@
 		A2A54CECEE20320DAC79E9B8844BAAEB /* Build configuration list for PBXNativeTarget "Specta" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D7F4CCBFAC456279EC6B35C7AD71375D /* Debug */,
-				97315781ED612BDEA8874693FADB56E6 /* Release */,
+				8A3A37B52352E088CBA5E2CF1DD3ECE6 /* Debug */,
+				66421D7778066A214D74300C7FA5E980 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
